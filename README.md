@@ -3,9 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-
-  <h3 align="center">NASDAQ forcasting</h3>
-
+  <h3 align="center">NASDAQ forecasting</h3>
   <p align="center">
     An awesome README template to jumpstart your projects!
     <br />
@@ -20,7 +18,13 @@
   </p>
 </div>
 
-
+This project is dedicated to such task as stocks price forecasting.
+While research i noticed, that the most actual subject of study is comparison machine learning models and neural networks with classic models such as ARMA and ARIMA.
+But most of already existing works are devoted to the comparison of 2-5 in total. So, it doesn't allow forming single point of view without benchmarking different models by myself. 
+In total i used 26 models such as autoregressive moving average, linear, decision tree and neural network based regression.
+I determined, that stacked GRU model provide the most accurate result.
+So, i used neural network with two GRU layers to get final model.
+Also, 
 Данный проект посвящен прогнозированию стоимости акций, представленных на бирже NASDAQ.
 В ходе анализа научных работ в предметной области было определено, что наиболее актуальным вопросом является использование моделей машинного обучения для получения наиболее точных результатов.
 В ходе бенчмарка были проверены 26 моделей: 2 модели авторегрессии - скользящего среднего, 8 моделей машинного обучения и 16 моделей на основе нейронных сетей.
