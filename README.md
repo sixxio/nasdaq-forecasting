@@ -3,7 +3,7 @@
 ## About The Project
 
 While research i noticed, that the most actual subject of study is comparison machine learning models and neural networks to classic models such as ARMA and ARIMA.  
-But most of already existing works are devoted to the comparison of 2-5 in total.  
+But most of already existing works are devoted to the comparison of 2-5 models in total.  
 So, it doesn't allow forming single point of view without benchmarking different models by myself.  
 
 In total i used 26 models such as autoregressive moving average, linear, decision tree and neural network based regression.  
