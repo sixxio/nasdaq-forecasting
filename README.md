@@ -18,7 +18,7 @@ And you can try simple forecasting webapp demo by clicking <a href="https://poly
 
 
 ### Built With
-To prepare data were used such libraries as Pandas and NumPy.
+To prepare data were used such libraries as Pandas and NumPy.  
 To test different model were used libraries such as Statsmodels, Sklearn and Keras.  
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
