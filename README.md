@@ -9,6 +9,9 @@ So, it doesn't allow forming single point of view without benchmarking different
 In total i used 26 models such as autoregressive moving average, linear, decision tree and neural network based regression.  
 I determined, that stacked GRU model provide the most accurate result.  
 So, i used neural network with two GRU layers to get final model.  
+
+Jupyter Notebook with short version of research is in `jmlc.ipynb`, also there are tickers lists (`tickers.json` and `tickers_test.json`), part of used dataset (`data.parquet.gz`) and already trained neural network (`trained.h5`).
+
 Also, to be repeatable by anyone all code has been refactored and published in <a href="https://github.com/sixxio/ftsf">this repo</a> and <a href="https://pypi.org/project/ftsf/">PyPI</a>.  
 
 And you can try simple forecasting webapp demo by clicking <a href="https://polycast.streamlit.app">here</a> (all code provided in <a href="https://github.com/sixxio/polycast">this repo</a>).  
@@ -22,8 +25,6 @@ To test different model were used libraries such as Statsmodels, Sklearn and Ker
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-
 
 <!-- CONTACT -->
 ## Contact
