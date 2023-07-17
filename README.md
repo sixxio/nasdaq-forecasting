@@ -12,7 +12,7 @@ So, i used neural network with two GRU layers to get final model.
 
 Jupyter Notebook with short version of research is in `jmlc.ipynb`, also there are tickers lists (`tickers.json` and `tickers_test.json`), part of used dataset (`data.parquet.gz`) and already trained neural network (`trained.h5`).
 
-Also, to be repeatable by anyone all code has been refactored and published in <a href="https://github.com/sixxio/ftsf">this repo</a> and <a href="https://pypi.org/project/ftsf/">PyPI</a>, documentation is available <a href="https://sixxio.github.io/ftsf">here</a>.  
+Also, to be repeatable by anyone all code has been refactored and published in <a href="https://github.com/sixxio/ftsf">this repo</a> and via <a href="https://pypi.org/project/ftsf/">PyPI</a>, documentation is available <a href="https://sixxio.github.io/ftsf">here</a>.  
 
 And you can try simple forecasting webapp demo by clicking <a href="https://polycast.streamlit.app">here</a> (all code provided in <a href="https://github.com/sixxio/polycast">this repo</a>).  
 
